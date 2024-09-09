@@ -15,9 +15,8 @@ class House:
 
 House('ЖК Эльбрус', 30)
 h1 = House('ЖК Горский', 18)
-print(h1.name, h1.number_of_floors)
-# print(h1.go_to())
+# print(h1.name, h1.number_of_floors)
 h2 = House('Домик в деревне', 2)
-print(h2.name, h2.number_of_floors)
+# print(h2.name, h2.number_of_floors)
 h1.go_to(5)
 h2.go_to(10)
